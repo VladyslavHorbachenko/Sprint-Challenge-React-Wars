@@ -27,6 +27,7 @@ const App = () => {
     <div className="App">
       <h1 className="Header">React Wars</h1>
       {person.map((item,index) => {
+
         //console.log(item);
           return(
             <StarPeople
