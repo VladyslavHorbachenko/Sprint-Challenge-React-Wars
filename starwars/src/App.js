@@ -21,9 +21,10 @@ const App = () => {
       .catch(error => {
         console.log("Error because",error);
       //CABAN
-        //Test PHPSTORM
+        //Test WebStorm
       })
   },[])
+
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
@@ -40,7 +41,7 @@ const App = () => {
             eye_color = {item.eye_color}
             birth_year = {item.birth_year}
             gender = {item.gender}
-            
+
             />
           )
       })}
